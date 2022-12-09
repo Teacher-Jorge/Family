@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Lato:wght@300&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'bangers';
+    font-size: 50px;
+    color:rgb(0, 255, 21);
+    text-shadow: 1px 1px 2px black;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'bangers';
+    font-size: 30px;
+    color:rgb(0, 225, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    height: 160px;
+    width: 120px;
+    box-shadow: 1px 1px 2px rgba(20, 20, 20, 0.6);
+    cursor: pointer;
+}
+
+.photos:active {
+    box-shadow: 0px 0px 0px rgba(20, 20, 20, 0.6);
+}
